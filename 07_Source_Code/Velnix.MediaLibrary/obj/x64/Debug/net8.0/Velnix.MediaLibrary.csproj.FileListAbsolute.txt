@@ -1,0 +1,13 @@
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\bin\x64\Debug\net8.0\Schema\001_initial_schema.sql
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\bin\x64\Debug\net8.0\Velnix.MediaLibrary.deps.json
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\bin\x64\Debug\net8.0\Velnix.MediaLibrary.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\bin\x64\Debug\net8.0\Velnix.MediaLibrary.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\Velnix.MediaLibrary.csproj.AssemblyReference.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\Velnix.MediaLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\Velnix.MediaLibrary.AssemblyInfoInputs.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\Velnix.MediaLibrary.AssemblyInfo.cs
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\Velnix.MediaLibrary.csproj.CoreCompileInputs.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\Velnix.MediaLibrary.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\refint\Velnix.MediaLibrary.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\Velnix.MediaLibrary.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\Velnix.MediaLibrary\obj\x64\Debug\net8.0\ref\Velnix.MediaLibrary.dll

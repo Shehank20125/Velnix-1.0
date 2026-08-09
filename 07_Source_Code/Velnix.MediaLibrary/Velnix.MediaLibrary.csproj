@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Velnix.MediaLibrary</RootNamespace>
+    <AssemblyName>Velnix.MediaLibrary</AssemblyName>
+    <Platforms>AnyCPU;x64</Platforms>
+    <!-- Proprietary / closed-source: no GPL dependencies permitted. -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MIT-licensed, commercially safe. No GPL contamination. -->
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Schema\001_initial_schema.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
