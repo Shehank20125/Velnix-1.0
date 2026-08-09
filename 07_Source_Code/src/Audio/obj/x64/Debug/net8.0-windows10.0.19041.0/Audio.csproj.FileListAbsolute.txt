@@ -1,0 +1,15 @@
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Audio.deps.json
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Audio.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Audio.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Core.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Core.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Audio.csproj.AssemblyReference.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Audio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Audio.AssemblyInfoInputs.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Audio.AssemblyInfo.cs
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Audio.csproj.CoreCompileInputs.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Audio.csproj.Up2Date
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Audio.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\refint\Velnix.Audio.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Audio.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Audio\obj\x64\Debug\net8.0-windows10.0.19041.0\ref\Velnix.Audio.dll

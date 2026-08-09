@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Velnix.Audio</RootNamespace>
+    <AssemblyName>Velnix.Audio</AssemblyName>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <!-- Playback.csproj reference removed — same reasoning as
+         Rendering.csproj: it was unused, and would now cycle with
+         Playback/PlaybackController.cs depending on Audio. -->
+  </ItemGroup>
+
+</Project>
