@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Throwaway verification harness — NOT part of the shipped product.
+    Purpose: bypass WinUI/DI entirely and exercise Velnix.DecodeHost's
+    FFmpegMediaDecoder directly, per the "suggested first real session"
+    in src/DecodeHost/NOTES.md. Cheapest way to catch FFmpeg.AutoGen
+    struct/enum mismatches before wiring anything through
+    CompositionRoot.
+
+    Same TFM as DecodeHost (net8.0-windows10.0.19041.0) since it's a
+    direct ProjectReference and DecodeHost uses AllowUnsafeBlocks types
+    (AVFrame* etc.) transitively through Playback's public surface.
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Velnix.Tools.DecodeHarness</RootNamespace>
+    <AssemblyName>Velnix.DecodeHarness</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Core\Core.csproj" />
+    <ProjectReference Include="..\..\src\Playback\Playback.csproj" />
+    <ProjectReference Include="..\..\src\DecodeHost\DecodeHost.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "xzeiPr3NJpg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\tools\\DecodeHarness\\DecodeHarness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\S.K\\.nuget\\packages\\ffmpeg.autogen\\8.1.0\\ffmpeg.autogen.8.1.0.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\sharpgen.runtime\\2.4.2-beta\\sharpgen.runtime.2.4.2-beta.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\sharpgen.runtime.com\\2.4.2-beta\\sharpgen.runtime.com.2.4.2-beta.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\system.io.pipelines\\9.0.1\\system.io.pipelines.9.0.1.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\system.text.encodings.web\\9.0.1\\system.text.encodings.web.9.0.1.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\vortice.d3dcompiler\\3.8.3\\vortice.d3dcompiler.3.8.3.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\vortice.direct3d11\\3.8.3\\vortice.direct3d11.3.8.3.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\vortice.directx\\3.8.3\\vortice.directx.3.8.3.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\vortice.dxgi\\3.8.3\\vortice.dxgi.3.8.3.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\vortice.mathematics\\2.1.0\\vortice.mathematics.2.1.0.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\vortice.winui\\3.8.3\\vortice.winui.3.8.3.nupkg.sha512",
+    "C:\\Users\\S.K\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.57\\microsoft.windows.sdk.net.ref.10.0.19041.57.nupkg.sha512"
+  ],
+  "logs": []
+}

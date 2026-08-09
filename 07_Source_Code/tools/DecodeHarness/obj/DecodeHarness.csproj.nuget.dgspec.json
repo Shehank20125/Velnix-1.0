@@ -1,0 +1,486 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\tools\\DecodeHarness\\DecodeHarness.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Audio\\Audio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Audio\\Audio.csproj",
+        "projectName": "Velnix.Audio",
+        "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Audio\\Audio.csproj",
+        "packagesPath": "C:\\Users\\S.K\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Audio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\S.K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj",
+        "projectName": "Velnix.Core",
+        "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\S.K\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\S.K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\DecodeHost\\DecodeHost.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\DecodeHost\\DecodeHost.csproj",
+        "projectName": "Velnix.DecodeHost",
+        "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\DecodeHost\\DecodeHost.csproj",
+        "packagesPath": "C:\\Users\\S.K\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\DecodeHost\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\S.K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj"
+              },
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\Playback.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\Playback.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "dependencies": {
+            "FFmpeg.AutoGen": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\Playback.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\Playback.csproj",
+        "projectName": "Velnix.Playback",
+        "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\Playback.csproj",
+        "packagesPath": "C:\\Users\\S.K\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\S.K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Audio\\Audio.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Audio\\Audio.csproj"
+              },
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj"
+              },
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Rendering\\Rendering.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Rendering\\Rendering.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Rendering\\Rendering.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Rendering\\Rendering.csproj",
+        "projectName": "Velnix.Rendering",
+        "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Rendering\\Rendering.csproj",
+        "packagesPath": "C:\\Users\\S.K\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Rendering\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\S.K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "dependencies": {
+            "Vortice.D3DCompiler": {
+              "target": "Package",
+              "version": "[3.*, )"
+            },
+            "Vortice.DXGI": {
+              "target": "Package",
+              "version": "[3.*, )"
+            },
+            "Vortice.Direct3D11": {
+              "target": "Package",
+              "version": "[3.*, )"
+            },
+            "Vortice.WinUI": {
+              "target": "Package",
+              "version": "[3.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\tools\\DecodeHarness\\DecodeHarness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\tools\\DecodeHarness\\DecodeHarness.csproj",
+        "projectName": "Velnix.DecodeHarness",
+        "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\tools\\DecodeHarness\\DecodeHarness.csproj",
+        "packagesPath": "C:\\Users\\S.K\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\tools\\DecodeHarness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\S.K\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Core\\Core.csproj"
+              },
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\DecodeHost\\DecodeHost.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\DecodeHost\\DecodeHost.csproj"
+              },
+              "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\Playback.csproj": {
+                "projectPath": "C:\\Users\\S.K\\Desktop\\Velnix V0.7\\Velnix\\07_Source_Code\\src\\Playback\\Playback.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.57, 10.0.19041.57]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.316/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
