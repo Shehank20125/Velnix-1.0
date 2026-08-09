@@ -1,0 +1,15 @@
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Diagnostics.deps.json
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Diagnostics.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Diagnostics.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Core.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\bin\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Core.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Diagnostics.csproj.AssemblyReference.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Diagnostics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Diagnostics.AssemblyInfoInputs.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Diagnostics.AssemblyInfo.cs
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Diagnostics.csproj.CoreCompileInputs.cache
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Diagnost.5C3B60D2.Up2Date
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Diagnostics.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\refint\Velnix.Diagnostics.dll
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\Velnix.Diagnostics.pdb
+C:\Users\S.K\Desktop\Velnix V0.7\Velnix\07_Source_Code\src\Diagnostics\obj\x64\Debug\net8.0-windows10.0.19041.0\ref\Velnix.Diagnostics.dll
