@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Velnix.Core</RootNamespace>
+    <AssemblyName>Velnix.Core</AssemblyName>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <!-- Project references go here as the module's dependencies are implemented.
+       Allowed dependencies per Architecture_Overview.md: (none — Core has no dependencies on other Velnix modules) -->
+
+</Project>
