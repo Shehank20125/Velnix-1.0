@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Velnix.DecodeHost</RootNamespace>
+    <AssemblyName>Velnix.DecodeHost</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <!--
+    Constitution v1.1 requires FFmpeg as an LGPL dynamic-link dependency
+    (no static linking, no GPL components enabled in the build). We do not
+    P/Invoke FFmpeg by hand here: FFmpeg.AutoGen is bindings generated
+    directly from FFmpeg's own C headers per targeted version, which is
+    the safer choice over hand-written struct layouts (AVFrame and
+    AVCodecContext are large, version-sensitive structs; a wrong manual
+    offset corrupts memory silently rather than failing loudly).
+
+    This package supplies only the managed P/Invoke signatures. It does
+    NOT ship the native FFmpeg binaries. Per the Constitution's LGPL
+    dynamic-linking requirement, an LGPL-configured FFmpeg shared build
+    (avcodec-*.dll, avformat-*.dll, avutil-*.dll, swscale-*.dll,
+    swresample-*.dll) must be placed next to the app executable at
+    runtime. See NOTES.md in this folder for acquisition details and the
+    version this was written against.
+  -->
+  <ItemGroup>
+    <PackageReference Include="FFmpeg.AutoGen" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Playback\Playback.csproj" />
+  </ItemGroup>
+
+  <!--
+    LGPL FFmpeg shared-build DLLs (avutil-60.dll, avcodec-62.dll,
+    avformat-62.dll, swresample-6.dll, swscale-9.dll — see the comment
+    above and NOTES.md for the exact versions this is pinned against).
+
+    CHANGED (2026-08-08): this used to CopyToOutputDirectory, which
+    propagates transitively to every consuming project's own bin
+    (DecodeHarness, Velnix.App, and DecodeHost's own bin): 3 physical
+    copies of ~134MB each. Removed. The 5 real DLLs live ONLY in the
+    "ffmpeg" folder next to this .csproj now. FFmpegNativeBootstrap
+    resolves that one folder directly via the VELNIX_FFMPEG_DIR
+    environment variable (see FFmpegNativeBootstrap.cs) instead of
+    expecting a per-exe copy. Set VELNIX_FFMPEG_DIR once on the dev
+    machine; see FFMPEG_SHARED_LOCATION_NOTES.md.
+
+    Packaged/shipped builds still need the DLLs physically next to the
+    installed exe (Windows LoadLibrary/installer concern, not a dev-time
+    build concern): that's a one-time packaging step, not something
+    every local `dotnet build` should redo 3x.
+  -->
+
+</Project>
